@@ -17,10 +17,10 @@ players = Array.new(
 )
 loop do
 puts "Select an option:\n1. Print all names \n2. Print even numbered names \n3. Get names that start with a letter of your choosing \n4. Add a player \n5. Close Program"
-choice = gets
+choice = gets   #Gets is like Console.REadLine
 case choice
 when "1\n"
-    players.each do |i|
+    players.each do |i|     #Loop - number.each
         puts "#{i.Name}, #{i.Number}"
     end
 when "2\n"

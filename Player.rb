@@ -1,13 +1,13 @@
 #file: Player.rb
 class Player
-    def initialize(name, number)
+    def initialize(name, number)    #Basically the constructor
         @name = name
         @number = number
     end
-    def Name
+    def Name    #Returns @name, effectively the Getter.
         @name
     end
     def Number
-        @number
+        @number #Returns @name, effectively the Getter.
     end
 end
